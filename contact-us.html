@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact DriveNova Motors to book a test drive or ask about financing." />
+  <title>DriveNova Motors | Contact Us</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html"><img src="images/logo.svg" alt="DriveNova Motors logo" /><span>DriveNova Motors</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About</a>
+        <a href="articles.html">Articles</a>
+        <a href="article.html">Featured Article</a>
+        <a class="active" href="contact-us.html">Contact</a>
+        <a href="sitemap.html">Sitemap</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container split-layout">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h1>Book a test drive or ask a question</h1>
+        <p class="lead">Complete the form and our team will reply within one business day.</p>
+        <form id="contactForm" class="contact-form">
+          <label>
+            Full name
+            <input type="text" name="name" placeholder="Your full name" required />
+          </label>
+          <label>
+            Email address
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Interest
+            <select name="interest" required>
+              <option value="">Select an option</option>
+              <option>Book a test drive</option>
+              <option>Financing help</option>
+              <option>Vehicle recommendation</option>
+              <option>Service enquiry</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us what you need" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="illustration-card">
+        <img src="images/contact.svg" alt="Customer support illustration" />
+        <div class="contact-box">
+          <h3>Visit the showroom</h3>
+          <p>125 Velocity Avenue, Austin, TX</p>
+          <p>Mon-Sat: 9am-7pm</p>
+          <p>+1 (800) 555-0199</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>DriveNova Motors</h3><p>We reply quickly and clearly.</p></div>
+      <div><h4>Support</h4><ul><li>Sales</li><li>Financing</li><li>Service</li></ul></div>
+      <div><h4>Email</h4><ul><li>hello@drivenova.example</li></ul></div>
+    </div>
+  </footer>
+</body>
+</html>
